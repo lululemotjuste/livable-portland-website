@@ -27,7 +27,7 @@ const next = () => {
 </script>
 
 
-{#each [renders[i]] as src (i)}
+{#each [renders.image[i]] as src (i)}
   {#if i%2 != 0} // is odd}
     <img transition:fade {src} alt="" />
   {/if}
