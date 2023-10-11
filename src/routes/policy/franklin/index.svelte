@@ -26,16 +26,16 @@ const next = () => {
 }
 </script>
 
-
-{#each [renders.image[i]] as src (i)}
-  {#if i%2 != 0} // is odd}
-    <img transition:fade {src} alt="" />
-  {/if}
-  {#if i%2 == 0} // is even}
-    <img transition:slide {src} alt="" />
-  {/if}
-{/each}
-
+<div class="d-flex flex-wrap" style="justify-content: center;">
+	{#each [renders.image[i]] as src (i)}
+	  {#if i%2 != 0} // is odd}
+	    <img transition:fade {src} alt="" />
+	  {/if}
+	  {#if i%2 == 0} // is even}
+	    <img transition:slide {src} alt="" />
+	  {/if}
+	{/each}
+</div>
 
 
 
@@ -54,7 +54,8 @@ const next = () => {
     </Carousel>
 </div>
 
-//////////////////////////////////
+
+
 
   
 <script>
