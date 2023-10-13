@@ -5,35 +5,35 @@
 
 
  const stats = [{
-	number: '5.9 acres'
-	units: 'of city-owned land reclaimed'
-	color:
-	image:
+	number: '5.9 acres',
+	units: 'of city-owned land reclaimed',
+	//color:
+	//image:
     }, {
-	number: '994 new affordable units'
-	units: 'under current zoning conditions'
-	color:
-	image:
+	number: '994 new affordable units',
+	units: 'under current zoning conditions',
+	//color:
+	//image:
     }, {
-	number: '$15,700,000'
-	units: 'estimated sale value'
-	color:
-	image:
+	number: '$15,700,000',
+	units: 'estimated sale value',
+	//color:
+	//image:
     }, {
-	number: '$3,400,000'
-	units: 'estimated annual property tax value of affordable housing'
-	color:
-	image:
+	number: '$3,400,000',
+	units: 'estimated annual property tax value of affordable housing',
+	//color:
+	//image:
     }, {
-	number: '17,000 SF'
-	units: 'Lincoln Park expansion'
-	color:
-	image:
+	number: '17,000 SF',
+	units: 'Lincoln Park expansion',
+	//color:
+	//image:
     }, {
-	number: '2.9 acres'
-	units: 'unbuilt potential green space'
-	color:
-	image:
+	number: '2.9 acres',
+	units: 'unbuilt potential green space',
+	//color:
+	//image:
     }]
 
 </script>
